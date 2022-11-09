@@ -15,7 +15,14 @@ public final class CalculatorAlgo {
     public static int add(int a, int b) {
         return a + b;
     }
-
+    public static int mult(int a, int b) {
+        if (a==0){
+            return a ;
+        }
+        else{
+            return a*b ; 
+        }
+    }
     private CalculatorAlgo() {
         throw new IllegalArgumentException("Utility class - do not instantiate");
     }

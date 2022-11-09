@@ -18,4 +18,9 @@ public class CalculatorAlgoTest {
     {
         assertEquals("2 + 3 should be 5", 5, CalculatorAlgo.add(2, 3));
     }
+    @Test
+    public void shouldMultTwoNumbers()
+    {
+        assertEquals("2 * 3 should be 6", 6, CalculatorAlgo.mult(2, 3));
+    }
 }

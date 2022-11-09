@@ -17,4 +17,7 @@ public final class CalculatorService {
     public int add(Collection<Integer> numbers) {
         return numbers.stream().reduce(0, CalculatorAlgo::add);
     }
+    public int mult(Collection<Integer> numbers) {
+        return numbers.stream().reduce(0, CalculatorAlgo::mult);
+    }
 }

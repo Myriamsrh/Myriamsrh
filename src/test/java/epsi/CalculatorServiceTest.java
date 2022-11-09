@@ -20,4 +20,9 @@ public class CalculatorServiceTest {
     {
         assertEquals("2 + 3 + 1 should be 6", 6, new CalculatorService().add(Arrays.asList(2, 3, 1)));
     }
+    @Test
+    public void shouldMultThreeNumbers()
+    {
+        assertEquals("2 * 3 * 1 should be 6", 6, new CalculatorService().mult(Arrays.asList(2, 3, 1)));
+    }
 }
